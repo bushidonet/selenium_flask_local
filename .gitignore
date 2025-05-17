@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# macOS system files
+.DS_Store
+
+# Python test/coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.cache
+.pytest_cache/
+nosetests.xml
+test-results.xml
+
+# Flask / Werkzeug specific
+instance/
+*.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~*
+
+# Selenium screenshots or temp downloads (if any)
+*.png
+*.zip
+*.crdownload
+
+# Docker
+**/__pycache__/
+docker-compose.override.yml
+*.pid
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Compiled Cython files
+*.c
+*.so
